@@ -2,7 +2,7 @@ require 'telegram/bot'
 require 'openssl'
 OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
-token = "344123508:AAEah1Opmb15zqc9GHYGL1hgC2xGtYrhtRQ"
+token = "TOKEN"
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
